@@ -41,3 +41,12 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.github.gurjeetkumar97"
+            artifactId = " com.and.ploader.BlinkLibrary"
+            version = "0.1.9"
+        }
+    }
+}
