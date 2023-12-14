@@ -45,8 +45,8 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.gurjeetkumar97"
-            artifactId = " com.and.ploader.BlinkLibrary"
-            version = "0.1.9"
+            artifactId = "BlinkLibrary"
+            version = "0.2.0"
         }
     }
 }
