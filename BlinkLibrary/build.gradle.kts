@@ -46,7 +46,7 @@ publishing {
         create<MavenPublication>("release") {
             groupId = "com.github.gurjeetkumar97"
             artifactId = "BlinkEffect-library"
-            version = "0.2.0"
+            version = "0.2.3"
         }
     }
 }
